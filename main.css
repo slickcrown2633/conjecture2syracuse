@@ -53,7 +53,7 @@ img {
 
     .violet {
         text-align: center;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-family: Impact;
         color: rgb(84, 50, 104);
     }
 
@@ -71,9 +71,10 @@ img {
     #exemple {
         color: rgba(0, 0, 0, 0.879);
         font-family: arial;
-        text-align: left;
+        text-align: center;
         border: solid gold;
         border-radius: 50px;
         background-color: rgb(201, 178, 49);
+        font-size: 50px;
     }
 }
