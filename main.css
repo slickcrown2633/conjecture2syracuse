@@ -60,7 +60,7 @@ img {
     .element {
         max-width: 90%;
         font-size: 14px;
-        item-align: center;
+        text-align: center;
     }
     #premier_texte {
         color: rgba(255, 255, 255, 0.879);
