@@ -38,8 +38,9 @@ img {
 @media (max-width: 768px) {
     #premier_texte, #exemple {
         padding: 20px;
-        font-size: 14px;
+        font-size: 50px;
         max-width: 90%;
+        font-family: arial;
     }
 
     img {
