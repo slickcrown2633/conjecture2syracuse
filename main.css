@@ -53,7 +53,7 @@ img {
 
     .violet {
         text-align: center;
-        font-family: Impact;
+        font-family: impact;
         color: rgb(84, 50, 104);
     }
 
@@ -75,6 +75,6 @@ img {
         border: solid gold;
         border-radius: 50px;
         background-color: rgb(201, 178, 49);
-        font-size: 50px;
+        font-size: 25px;
     }
 }
