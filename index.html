@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html lang="fr">
+  <head>
+    <title>conjectures</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon pour les navigateurs classiques -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- Icône pour les appareils Apple (iPhone, iPad) -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+    <!-- Icônes pour Android -->
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="android-chrome-512x512.png">
+  </head>
+  <body>
+    <h1 id="premier_texte">La conjecture de Syracuse</h1>
+    <div class="element">
+    </div>
+    <br>
+    <p id="principal">La conjecture de Syracuse, encore appelée conjecture de Collatz, conjecture d'Ulam, conjecture tchèque, problème de Kakutani ou problème 3x + 1, est l'hypothèse mathématique selon laquelle la suite de Syracuse de n'importe quel entier strictement positif atteint 1.<br></p>
+    <p class="violet">Voici un schéma qui explique cette conjecture:</p>
+    <img src="https://static.techno-science.net/illustration/Definition/inconnu/8/8e0a8c36222b71e0ba9e5376a90e1d66.png" id="image">
+    <br><br><br><br><br>
+    <img src="">
+    <h1 id="exemple">Exemple</h1>
+    <p class="violet">Entrez un nombre pour voir la suite :</p>
+    <input type="number" id="numberInput" min="1" value="">
+    <button onclick="calculateSyracuse()">Lancer</button>
+
+    <p id="result"></p>
+
+    <script>
+        function calculateSyracuse() {
+            let n = parseInt(document.getElementById("numberInput").value);
+            if (n <= 0 || isNaN(n)) {
+                document.getElementById("result").innerText = "Veuillez entrer un nombre entier positif.";
+                return;
+            }
+
+            let sequence = [n];
+            while (n !== 1) {
+                n = (n % 2 === 0) ? n / 2 : 3 * n + 1;
+                sequence.push(n);
+            }
+
+            document.getElementById("result").innerText = "Suite : " + sequence.join(" → ");
+        }
+    </script>
+    <br>
+    <p class="violet">Voici quelques vidéos qui explique ce problème en profondeur:</p>
+    <h3><strong>Vidéo courte:</strong></h3>
+    <a href="https://youtube.com/shorts/rJhtSMgFfVY?si=jJKWdT-gmqL5MGCX">La conjecture de Syracuse-Yvan Monka</a>
+    <h3><strong>Vidéos détaillées:</strong></h3>
+    <a href="https://youtu.be/aRe4ARtQiJY?si=DWaqebM8wOPAhk6b">Le problème de Syracuse-Yvan Monka</a><br>
+    <a href="https://youtu.be/BP2G28694z8?si=Lf9PEx0eBjCA4XBR">La conjecture de Syracuse - Deux (deux ?) minutes pour...-El Ji</a>
+  </body>
+ </html>

@@ -1,0 +1,61 @@
+/*version pc*/
+html {
+    background: linear-gradient(to top, #ffffff, rgb(46, 46, 132));
+}
+#premier_texte {
+    color: rgba(255, 255, 255, 0.879);
+    font-family: arial;
+    text-align: center;
+    border: 100px;
+    background-color: rgb(49, 49, 145);
+    padding: 50px;
+}
+.violet {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(84, 50, 104);
+}
+img {
+  max-width: 100%
+}
+#exemple {
+    color: rgba(0, 0, 0, 0.879);
+    font-family: arial;
+    text-align: center;
+    border: solid gold;
+    border-radius: 50px;
+    background-color: rgb(201, 178, 49);
+}
+#principal {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.element {
+    border: 3px solid gold;
+    background-color: gold;
+    box-shadow: 0 0 10px gold; /* Effet lumineux */
+}
+@media (max-width: 768px) {
+    #premier_texte, #exemple {
+        padding: 20px;
+        font-size: 14px;
+        max-width: 90%;
+    }
+
+    img {
+        position: static; /* Annule la position absolue */
+        display: block;
+        margin: 20px auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    .violet {
+        text-align: center;
+    }
+
+    .element {
+        max-width: 90%;
+        font-size: 14px;
+    }
+}
