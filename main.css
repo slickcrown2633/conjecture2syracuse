@@ -52,10 +52,27 @@ img {
 
     .violet {
         text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(84, 50, 104);
     }
 
     .element {
         max-width: 90%;
         font-size: 14px;
+    }
+    #premier_texte {
+        color: rgba(255, 255, 255, 0.879);
+        font-family: arial;
+        text-align: center;
+        border: 100px;
+        background-color: rgb(49, 49, 145);      
+    }
+    #exemple {
+        color: rgba(0, 0, 0, 0.879);
+        font-family: arial;
+        text-align: left;
+        border: solid gold;
+        border-radius: 50px;
+        background-color: rgb(201, 178, 49);
     }
 }
