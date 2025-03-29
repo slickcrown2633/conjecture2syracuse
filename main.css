@@ -39,7 +39,6 @@ img {
     #premier_texte, #exemple {
         padding: 20px;
         font-size: 50px;
-        max-width: 90%;
         font-family: arial;
     }
 
@@ -60,7 +59,7 @@ img {
     }
 
     .element {
-        max-width: 90%;
+        max-width: 100%;
         font-size: 14px;
         text-align: center;
     }
@@ -72,6 +71,7 @@ img {
         background-color: rgb(49, 49, 145);
         font-size: 25px;
         font-weight: bold;
+        max-width: 100%;
     }
     #exemple {
         color: rgba(0, 0, 0, 0.879);
@@ -81,10 +81,8 @@ img {
         border-radius: 35px;
         background-color: rgb(201, 178, 49);
         font-size: 25px;
-    #button {
-        display: flex;
-        justify-content: center;  /* Centre horizontalement */
-        align-items: center;      /* Centre verticalement */
-        height: 100vh;
     }
+    #principal {
+        font-weight: bold;
+        font-family: Georgia;
 }
