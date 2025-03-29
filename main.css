@@ -78,5 +78,10 @@ img {
         border-radius: 35px;
         background-color: rgb(201, 178, 49);
         font-size: 25px;
+    button {
+        display: flex;
+        justify-content: center;  /* Centre horizontalement */
+        align-items: center;      /* Centre verticalement */
+        height: 100vh;
     }
 }
