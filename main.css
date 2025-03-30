@@ -41,7 +41,7 @@ iframe {
 }
 h3 {
         font-size: 20px;
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
     }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
@@ -59,7 +59,7 @@ h3 {
 
     .violet {
         text-align: center;
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
         color: rgb(84, 50, 104);
         font-weight: bold;
         font-size: 20px;
@@ -72,7 +72,7 @@ h3 {
     }
     #premier_texte {
         color: rgba(255, 255, 255, 0.879);
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
         text-align: center;
         border: 100px;
         background-color: rgb(49, 49, 145);
@@ -91,7 +91,7 @@ h3 {
     }
     #principal {
         font-weight: bold;
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
         font-size: 18px;
     }
     #short {
@@ -112,11 +112,11 @@ h3 {
     }
     h2 {
         font-size: 24px;
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
     }
     .introduction {
         font-size: 20px;
-        font-family: Georgia;
+        font-family: 'Georgia', 'Times New Roman', serif;
     }
     #button {
         border-radius: 12px;
