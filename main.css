@@ -85,7 +85,7 @@ footer {
 .introduction {
     font-size: 17px;
     font-family: Impact;
-    color: lightgrey;
+    color: black;
 }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
