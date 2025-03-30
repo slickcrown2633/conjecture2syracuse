@@ -96,7 +96,7 @@ h3 {
     }
     #short {
         width: 100%;
-        max-width: 250px;
+        max-width: 210px;
         height: auto;
         aspect-ratio: 9 / 16;
         display: block;
@@ -104,7 +104,7 @@ h3 {
     }
     .video {
         width: 100%;
-        max-width: 365px;
+        max-width: 325px;
         height: auto;
         aspect-ratio: 16 / 9;
         display: block;
