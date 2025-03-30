@@ -84,6 +84,7 @@ footer {
 }
 .introduction {
     font-size: 20px;
+    font-family: Impact;
 }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
