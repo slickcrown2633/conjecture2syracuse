@@ -58,7 +58,7 @@ iframe {
     height: auto;
     aspect-ratio: 9 / 16;
     display: block;
-    margin: left 5%;
+    margin: 20px;
 }
  .video {
     max-width: 600px;
