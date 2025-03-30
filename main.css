@@ -39,6 +39,10 @@ iframe {
     max-width: 100%;
     height: auto;
 }
+h3 {
+        font-size: 20px;
+        font-family: Georgia;
+    }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
         padding: 20px;
