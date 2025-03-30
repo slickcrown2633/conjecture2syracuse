@@ -52,7 +52,7 @@ h3 {
     img {
         position: static; /* Annule la position absolue */
         display: block;
-        margin: 20px auto;
+        margin: 18px auto;
         max-width: 90%;
         height: auto;
     }
@@ -62,12 +62,12 @@ h3 {
         font-family: 'Georgia', 'Times New Roman', serif;
         color: #3e3c79;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .element {
         max-width: 100%;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
     }
     #premier_texte {
@@ -76,7 +76,7 @@ h3 {
         text-align: center;
         border: 100px;
         background-color: rgb(49, 49, 145);
-        font-size: 27px;
+        font-size: 25px;
         font-weight: bold;
         max-width: 100%;
     }
@@ -87,7 +87,7 @@ h3 {
         border: solid gold;
         border-radius: 35px;
         background-color: rgb(201, 178, 49);
-        font-size: 25px;
+        font-size: 23px;
     }
     #principal {
         font-weight: bold;
@@ -111,11 +111,11 @@ h3 {
         margin: 0 auto;
     }
     h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-family: 'Georgia', 'Times New Roman', serif;
     }
     .introduction {
-        font-size: 20px;
+        font-size: 18px;
         font-family: 'Georgia', 'Times New Roman', serif;
     }
     #button {
