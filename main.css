@@ -102,12 +102,16 @@ h3 {
     }
     .video {
         width: 100%;
-        max-width: 300px;
+        max-width: 350px;
         height: auto;
         aspect-ratio: 16 / 9;
     }
     h3 {
         font-size: 20px;
+        font-family: Georgia;
+    }
+    .introduction {
+        font-size: 17px;
         font-family: Georgia;
     }
 }
