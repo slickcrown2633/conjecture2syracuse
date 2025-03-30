@@ -44,13 +44,21 @@ iframe {
     max-width: 100%;
     height: auto;
 }
-h3 {
+h2 {
         font-size: 20px;
         font-family: 'Georgia', 'Times New Roman', serif;
     }
+.content {
+    flex: 1;
+}
 footer {
-        background-color: black;
+        background-color: #333;
         color: white;
+        text-align: center;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: auto;
     }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
