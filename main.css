@@ -14,7 +14,7 @@ html, body {
     border: 100px;
     background-color: rgb(49, 49, 145);
     padding: 50px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .violet {
     text-align: left;
@@ -43,7 +43,7 @@ img {
         font-weight: bold;
         max-width: 100%;
         margin: 0;
-    }
+}
 .element {
     border: 3px solid gold;
     background-color: gold;
@@ -70,7 +70,7 @@ iframe {
 h2 {
         font-size: 20px;
         font-family: 'Georgia', 'Times New Roman', serif;
-    }
+}
 .content {
     flex: 1;
 }
@@ -81,7 +81,10 @@ footer {
         width: 100%;
         box-sizing: border-box;
         margin-top: auto;
-    }
+}
+.introduction {
+    font-size: 20px;
+}
 @media (max-width: 768px) {
     #premier_texte, #exemple {
         padding: 20px;
