@@ -43,6 +43,10 @@ h3 {
         font-size: 20px;
         font-family: 'Georgia', 'Times New Roman', serif;
     }
+footer {
+        background-color: black;
+        color: white;
+    }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
         padding: 20px;
