@@ -65,11 +65,12 @@ iframe {
     height: auto;
     aspect-ratio: 16 / 9;
     display: block;
-    margin: 0 auto;
+    margin: 50px;
 }
 h2 {
         font-size: 20px;
         font-family: Impact;
+        margin: 20px;
 }
 .content {
     flex: 1;
