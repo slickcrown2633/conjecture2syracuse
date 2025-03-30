@@ -94,11 +94,17 @@ h3 {
         font-family: Georgia;
         font-size: 18px;
     }
-    iframe {
+    #short {
         width: 100%;
-        max-width: 400px;
+        max-width: 300px;
         height: auto;
         aspect-ratio: 9 / 16;
+    }
+    .video {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        aspect-ratio: 16 / 9;
     }
     h3 {
         font-size: 20px;
