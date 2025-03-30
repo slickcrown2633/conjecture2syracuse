@@ -114,4 +114,12 @@ h3 {
         font-size: 17px;
         font-family: Georgia;
     }
+    #button {
+        border-radius: 12px;
+        color: white;
+        background-color: grey;
+        border: 2px solid darkgrey;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
 }
