@@ -31,10 +31,17 @@ img {
     border-radius: 50px;
     background-color: rgb(201, 178, 49);
 }
-#principal {
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+#premier_texte {
+        color: rgba(255, 255, 255, 0.879);
+        font-family: 'Georgia', 'Times New Roman', serif;
+        text-align: center;
+        border: 100px;
+        background-color: rgb(49, 49, 145);
+        font-size: 25px;
+        font-weight: bold;
+        max-width: 100%;
+        margin: 0;
+    }
 .element {
     border: 3px solid gold;
     background-color: gold;
