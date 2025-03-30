@@ -35,6 +35,9 @@ img {
     background-color: gold;
     box-shadow: 0 0 10px gold; /* Effet lumineux */
 }
+iframe {
+    max-width: 100%;
+}
 @media (max-width: 768px) {
     #premier_texte, #exemple {
         padding: 20px;
@@ -86,5 +89,8 @@ img {
         font-weight: bold;
         font-family: Georgia;
         font-size: 16px;
+    }
+    iframe {
+        max-width: 100%;
     }
 }
