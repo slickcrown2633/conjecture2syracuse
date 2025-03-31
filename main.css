@@ -7,15 +7,6 @@ html, body {
     padding: 0;
     width: 100%;
 }
-#premier_texte {
-    color: rgba(255, 255, 255, 0.879);
-    font-family: arial;
-    text-align: center;
-    border: 100px;
-    background-color: rgb(49, 49, 145);
-    padding: 50px;
-    font-size: 40px;
-}
 .violet {
     text-align: left;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -87,6 +78,11 @@ footer {
     font-size: 17px;
     font-family: Impact;
     color: black;
+}
+#principal {
+    font-size: 17px;
+    color: black;
+    font-family: Impact;
 }
 @media (max-width: 768px) {
     #premier_texte, #exemple {
