@@ -8,13 +8,13 @@ html, body {
     width: 100%;
 }
 .violet {
-    text-align: left;
+    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(84, 50, 104);
-    font-size: 25px
+    font-size: 25px;
 }
 img {
-  max-width: 100%
+  max-width: 100%;
 }
 #exemple {
     color: rgba(0, 0, 0, 0.879);
@@ -72,13 +72,13 @@ h2 {
 footer {
         background-color: #333;
         color: white;
-        padding: 20px;
+        padding: 17px;
         width: 100%;
         box-sizing: border-box;
         margin-top: auto;
 }
 .introduction {
-    font-size: 10px;
+    font-size: 20px;
     font-family: Impact;
     color: black;
 }
