@@ -52,7 +52,7 @@ iframe {
     height: auto;
     aspect-ratio: 9 / 16;
     display: block;
-    margin: 950px;
+    margin: 20px;
 }
  .video {
     max-width: 600px;
@@ -78,7 +78,7 @@ footer {
         margin-top: auto;
 }
 .introduction {
-    font-size: 600px;
+    font-size: 10px;
     font-family: Impact;
     color: black;
 }
