@@ -1,6 +1,6 @@
 /*version pc*/
 html {
-    background-color: #f5f2da;
+    background-color: rgb(37, 85, 127);
 }
 html, body {
     margin: 0;
@@ -26,7 +26,7 @@ img {
     background-color: rgb(201, 178, 49);
 }
 #premier_texte {
-        color: rgba(255, 255, 255, 0.879);
+        color: #333;
         font-family: 'Georgia', 'Times New Roman', serif;
         text-align: center;
         border: 150px;
