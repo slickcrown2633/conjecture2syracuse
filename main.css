@@ -26,11 +26,11 @@ img {
     background-color: rgb(201, 178, 49);
 }
 #premier_texte {
-        color: #333;
+        color: white;
         font-family: 'Georgia', 'Times New Roman', serif;
         text-align: center;
         border: 150px;
-        background-color: rgb(49, 49, 145);
+        background-color: #333;
         font-size: 70px;
         font-weight: bold;
         max-width: 100%;
