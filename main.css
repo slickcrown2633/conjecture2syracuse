@@ -10,8 +10,8 @@ html, body {
 .violet {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: grey;
-    font-size: 25px;
+    color: white;
+    font-size: 35px;
 }
 img {
     max-width: 100%;
@@ -63,7 +63,7 @@ iframe {
     margin: 0 auto;
 }
 h2 {
-        font-size: 40px;
+        font-size: 50px;
         font-family: Impact;
         margin: 10px;
 }
@@ -85,7 +85,7 @@ footer {
     mergin: 20px;
 }
 #principal {
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     font-family: Impact;
 }
