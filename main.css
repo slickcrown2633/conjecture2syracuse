@@ -106,9 +106,9 @@ footer {
     .violet {
         text-align: center;
         font-family: 'Georgia', 'Times New Roman', serif;
-        color: #3e3c79;
+        color: white;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .element {
