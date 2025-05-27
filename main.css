@@ -10,7 +10,7 @@ html, body {
 .violet {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #a933e4;
+    color: grey;
     font-size: 25px;
 }
 img {
@@ -85,7 +85,7 @@ footer {
     mergin: 20px;
 }
 #principal {
-    font-size: 17px;
+    font-size: 20px;
     color: black;
     font-family: Impact;
 }
